@@ -1,4 +1,4 @@
-/*package me.dio.santander_lab_dio_2025.controller.exception;
+package me.dio.santander_lab_dio_2025.controller.exception;
 
 
 import org.slf4j.Logger;
@@ -31,5 +31,5 @@ public class GlobalExceptionHandler {
         logger.error(message, unexpectedException);
         return new ResponseEntity<>(message, HttpStatus.INTERNAL_SERVER_ERROR);
     }
-}*/
+}
 
